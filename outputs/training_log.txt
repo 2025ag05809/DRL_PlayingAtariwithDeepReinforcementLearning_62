@@ -1,0 +1,28 @@
+======================================================================
+Group 62 -- DQN-style training run (custom GridWorld, NumPy-only)
+Started: 2026-10-10 14:04:20
+Config: episodes=400, batch_size=32, gamma=0.95, eps 1.0->0.1 over 250 episodes
+======================================================================
+Episode    1/400 | eps=1.000 | reward=+0.460 | avg(last25)=+0.460 | avg_td_loss=nan | replay_size=28
+Episode   25/400 | eps=0.914 | reward=-0.800 | avg(last25)=-0.550 | avg_td_loss=0.00771 | replay_size=943
+Episode   50/400 | eps=0.824 | reward=+0.220 | avg(last25)=-0.166 | avg_td_loss=0.00766 | replay_size=1763
+Episode   75/400 | eps=0.734 | reward=+0.460 | avg(last25)=-0.208 | avg_td_loss=0.00786 | replay_size=2584
+Episode  100/400 | eps=0.644 | reward=+0.820 | avg(last25)=+0.131 | avg_td_loss=0.00841 | replay_size=3338
+Episode  125/400 | eps=0.554 | reward=+0.260 | avg(last25)=+0.533 | avg_td_loss=0.00652 | replay_size=3896
+Episode  150/400 | eps=0.464 | reward=+0.700 | avg(last25)=+0.578 | avg_td_loss=0.00669 | replay_size=4398
+Episode  175/400 | eps=0.374 | reward=+0.820 | avg(last25)=+0.699 | avg_td_loss=0.00520 | replay_size=4799
+Episode  200/400 | eps=0.284 | reward=+0.780 | avg(last25)=+0.728 | avg_td_loss=0.00556 | replay_size=5000
+Episode  225/400 | eps=0.194 | reward=+0.820 | avg(last25)=+0.774 | avg_td_loss=0.00480 | replay_size=5000
+Episode  250/400 | eps=0.104 | reward=+0.820 | avg(last25)=+0.791 | avg_td_loss=0.00457 | replay_size=5000
+Episode  275/400 | eps=0.100 | reward=+0.820 | avg(last25)=+0.798 | avg_td_loss=0.00394 | replay_size=5000
+Episode  300/400 | eps=0.100 | reward=+0.820 | avg(last25)=+0.805 | avg_td_loss=0.00376 | replay_size=5000
+Episode  325/400 | eps=0.100 | reward=+0.780 | avg(last25)=+0.793 | avg_td_loss=0.00281 | replay_size=5000
+Episode  350/400 | eps=0.100 | reward=+0.760 | avg(last25)=+0.795 | avg_td_loss=0.00283 | replay_size=5000
+Episode  375/400 | eps=0.100 | reward=+0.780 | avg(last25)=+0.805 | avg_td_loss=0.00167 | replay_size=5000
+Episode  400/400 | eps=0.100 | reward=+0.820 | avg(last25)=+0.804 | avg_td_loss=0.00198 | replay_size=5000
+======================================================================
+Finished: 2026-10-10 14:04:22
+Success rate, final 50 episodes (reached goal): 100.0%
+Mean reward, first 25 episodes : -0.550
+Mean reward, final 25 episodes : +0.804
+======================================================================

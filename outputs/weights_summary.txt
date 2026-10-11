@@ -1,0 +1,5 @@
+Final network weight statistics (sanity check that learning occurred)
+W1: shape=(36, 64), mean=0.04148, std=0.27597
+b1: shape=(64,), mean=-0.09523, std=0.09629
+W2: shape=(64, 4), mean=0.13332, std=0.14982
+b2: shape=(4,), mean=-0.10598, std=0.02509
